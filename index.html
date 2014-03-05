@@ -1,0 +1,66 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Website</title>
+
+    <link rel="stylesheet" href="css/foundation.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    
+    <script src="js/vendor/modernizr.js"></script>
+  </head>
+  <body>
+    
+    <form data-abide class="ewu">
+ <h1>EWU Student Information</h1>
+ <hr>
+ <p>Please complete the form below</p>
+  <div class="name-field">
+    <!-- <label for="name" class="error">Your Name <small>required</small> -->
+    <label>Your Name <small>Required</small>
+      <input type="text" placeholder="Johnny Appleseed" required pattern="[a-zA-Z]+" required data-invalid>
+    </label>
+    <small class="error">Your name is required and may only consist of letters.</small>
+  </div>
+  
+   <div class="num-field">
+    <label>Student Number <small>Required</small>
+      <input type="number" placeholder="12345678" required data-invalid>
+    </label>
+    <small class="error">Please enter your EWU ID number.</small>
+  </div>
+
+    <div class="major-field">
+    <label>Academic Major
+      <input type="text">
+    </label>
+    <small class="error">Please provide your major.</small>
+  </div>
+
+  <div class="email-field">
+    <label>Email
+      <input type="email" placeholder="username@eagles.ewu.edu">
+    </label>
+    <small class="error">An email address is required.</small>
+  </div>
+
+  <div class="grad-field">
+    <label>Graduation Date
+      <input type="date">
+    </label>
+    <small class="error">Please provide graduation date.</small>
+  </div>
+
+
+  <button type="submit">Submit</button>
+</form>
+   
+    
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/foundation.js"></script>
+    <script src="js/foundation/foundation.abide.js"></script>
+    <script src="js/scripts.js"></script>
+
+  </body>
+</html>

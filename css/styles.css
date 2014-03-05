@@ -1,0 +1,25 @@
+/* Your Awesome Website */
+
+.ewu {
+	font-size: 1.25em;
+	background: #d4d4d4;
+	margin: 20px;
+}
+h1 {
+	font-size: 1.5em;
+	font-weight: bold;
+}
+p {
+	font-size: 1.0em;
+	font-style: italic;
+	color: #C22727;
+
+}
+label {
+	font-size: .75em;
+	/*color: #C22727;*/
+}
+h1, p, label, button {
+	margin-left: 10px;
+	margin-right:10px;
+}
